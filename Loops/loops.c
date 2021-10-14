@@ -35,10 +35,6 @@ main(
     while (count <= 5);
 
     // TODO: Create a loop that counts from 1 to 100 skipping by 5
-    for (count = 5; count <= 100; count = count + 5)
-    {
-        printf("%d\n", count);
-    }
 
     return EXIT_SUCCESS;
 }

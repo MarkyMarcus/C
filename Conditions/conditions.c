@@ -36,8 +36,7 @@ main(
     }
 
     // TODO: Put your age in a variable and use an if/else to say if your age can drive or not
-    int age = 35;
-    if (age >= 16)
+    if ()
     {
         printf("At age %d, you may drive\n", age);
     }

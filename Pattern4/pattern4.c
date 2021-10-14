@@ -15,28 +15,6 @@ int
 main(
     void)
 {
-    #define WIDTH 5
-    uint32_t vals[WIDTH][WIDTH];
-    uint32_t num = 1;
-
-    bzero(&vals, sizeof(vals));
-
-    for (uint32_t i = 0; i < WIDTH; ++i)
-    {
-        for (uint32_t j = 0; j <= i; ++j)
-        {
-            vals[i][WIDTH - 1 - j] = num++;
-        }
-    }
-
-    for (uint32_t i = 0; i < WIDTH; ++i)
-    {
-        for (uint32_t j = 0; j < WIDTH; ++j)
-        {
-            vals[i][j] == 0 ? printf("  "): printf("%2d", vals[i][j]);
-        }
-        printf("\n");
-    }
-
-    return 0;
+    // Return success
+    return EXIT_SUCCESS;
 }

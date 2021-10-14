@@ -51,20 +51,6 @@ main(
     }
 
     // TODO: Write a switch statement to print out the first 3 arguments to main() if they exist
-    switch (argc)
-    {
-        case 4:
-            printf("Argument %d is %s\n", 3, argv[3]);
-        case 3:
-            printf("Argument %d is %s\n", 2, argv[2]);
-        case 2:
-            printf("Argument %d is %s\n", 1, argv[1]);
-        case 1:
-            printf("Argument %d is %s\n", 0, argv[0]);
-            break;
-        default:
-            printf("%d is too many arguments\n", argc);
-    }
 
     // Return success
     return 0;

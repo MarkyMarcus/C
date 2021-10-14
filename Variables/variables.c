@@ -24,8 +24,6 @@ main(
     printf("The value of combo is %d\n", combo);
 
     // TODO: Save the year in a variable and print it out as a integer and hexadecimal
-    int year = 2019;
-    printf("Year %d is %x in hexadecimal\n", year, year);
 
     return EXIT_SUCCESS;
 }

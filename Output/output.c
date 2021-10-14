@@ -21,7 +21,6 @@ main(
     printf("There are %d seconds in a year\n", 365 * 24 * 60 * 60);
 
     // TODO: Print your name and your age in one statement using format specifiers
-    printf("%s is %d years old\n", "Eric", 25);
 
     // Return success
     return 0;

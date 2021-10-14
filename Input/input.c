@@ -37,11 +37,6 @@ main(
     int age;
     char color[256];
 
-    printf("Please enter your age: ");
-    scanf("%d", &age);
-
-    printf("Please enter your favorite color: ");
-    scanf("%s", color);
 
     printf("Your age is %d and your favorite color is %s\n", age, color);
 

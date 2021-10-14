@@ -16,12 +16,7 @@ foo(
 // Declare a function name bar that takes no parameters and returns an int
 int bar(int);
 
-void
-my_func(
-    char *string)
-{
-    printf("%s\n", string);
-}
+// TODO: Write a function that takes a string as a parameter and prints it out
 
 
 /**
@@ -53,8 +48,7 @@ main(
     value = bar(2);
     printf("bar() returned %d\n", value);
 
-    // TODO: Write a function that takes a string as a parameter and prints it out
-    my_func("Hello");
+    // TODO: Call your function
 
     return EXIT_SUCCESS;
 }

@@ -9,7 +9,6 @@ main(
     char **argv __unused)
 {
     // TODO: Print the message "Hello, World!" with a newline
-    printf("Hello, World!\n");
 
     // Return success
     return 0;

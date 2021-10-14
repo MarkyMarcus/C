@@ -10,7 +10,6 @@ main(
 {
     // Print our message
     // TODO: Print a message
-    printf("Hello, World!\n");
 
     // Return success
     return 0;

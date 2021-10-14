@@ -17,15 +17,15 @@ interestingFacts(
     time_t years = 0;
 
     // TODO: Calcuate minutes
-    minutes = seconds / 60;
+    minutes = 
     // TODO: Calcuate hours
-    hours = minutes / 60;
+    hours = 
     // TODO: Calcuate days
-    days = hours / 24;
+    days = 
     // TODO: Calcuate weeks
-    weeks = days / 7;
+    weeks = 
     // TODO: Calcuate years
-    years = days / 365;
+    years = 
 
     printf("Seconds: %lu\n", seconds);
     printf("Minutes: %lu\n", minutes);
@@ -38,16 +38,14 @@ interestingFacts(
     if (years >= 16)
     {
         // TODO: Print a message to the user
-        printf("You may drive\n");
     }
     else
     {
         // TODO: Print a message to the user
-        printf("You may not drive\n");
     }
 
     // TODO: Tell the user if they can vote (18+)
-    if (years >= 18)
+    if 
     {
         printf("You may vote\n");
     }
@@ -57,7 +55,7 @@ interestingFacts(
     }
 
     // TODO: Tell the user if they can be predient (35+)
-    if (years >= 35)
+    if 
     {
         printf("You may be president\n");
     }
